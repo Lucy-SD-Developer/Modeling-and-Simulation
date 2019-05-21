@@ -1,0 +1,882 @@
+
+                                      ARENA Simulation Results
+                                               Lu Lin
+
+                                  Summary for Replication 1 of 10
+
+Project: Fast Food Supply Chain Management                           Run execution date :11/25/2018
+Analyst: Lu Lin                                                      Model revision date:11/25/2018
+
+Replication ended at time      : 120.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Food.VATime                                 25.361     (Insuf)    20.323     33.935         69    
+Food.NVATime                                .00000     (Insuf)    .00000     .00000         69    
+Food.WaitTime                               9.0723     (Insuf)    .00000     39.941         69    
+Food.TranTime                               .00000     (Insuf)    .00000     .00000         69    
+Food.OtherTime                              .00000     (Insuf)    .00000     .00000         69    
+Food.TotalTime                              34.434     (Insuf)    22.221     62.840         69    
+Restaurant 5.Queue.WaitingTime              6.8820     (Insuf)    .00000     16.990         12    
+Restaurant 4.Queue.WaitingTime              1.6399     (Insuf)    .00000     10.204         12    
+Restaurant 3.Queue.WaitingTime              4.5673     (Insuf)    .00000     15.443         10    
+Restaurant 2.Queue.WaitingTime              5.8094     (Insuf)    .00000     14.830         23    
+Restaurant 1.Queue.WaitingTime              24.267     (Insuf)    .00000     42.351         16    
+East Storage Center.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000         61    
+West Storage Center.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000         41    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Food.WIP                                    26.387     (Insuf)    .00000     34.000     33.000    
+FoodStorage.NumberBusy                      15.590     (Insuf)    .00000     20.000     17.000    
+FoodStorage.NumberScheduled                 1000.0     (Insuf)    1000.0     1000.0     1000.0    
+FoodStorage.Utilization                     .01559     (Insuf)    .00000     .02000     .01700    
+Consumption1.NumberBusy                     .82485     (Insuf)    .00000     1.0000     1.0000    
+Consumption1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption1.Utilization                    .82485     (Insuf)    .00000     1.0000     1.0000    
+Consumption5.NumberBusy                     .55083     (Insuf)    .00000     1.0000     .00000    
+Consumption5.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption5.Utilization                    .55083     (Insuf)    .00000     1.0000     .00000    
+Consumption4.NumberBusy                     .45297     (Insuf)    .00000     1.0000     1.0000    
+Consumption4.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption4.Utilization                    .45297     (Insuf)    .00000     1.0000     1.0000    
+Consumption3.NumberBusy                     .56623     (Insuf)    .00000     1.0000     1.0000    
+Consumption3.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption3.Utilization                    .56623     (Insuf)    .00000     1.0000     1.0000    
+Consumption2.NumberBusy                     .78967     (Insuf)    .00000     1.0000     1.0000    
+Consumption2.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption2.Utilization                    .78967     (Insuf)    .00000     1.0000     1.0000    
+Restaurant 5.Queue.NumberInQueue            .68820     (Insuf)    .00000     3.0000     .00000    
+Restaurant 4.Queue.NumberInQueue            .16400     (Insuf)    .00000     1.0000     .00000    
+Restaurant 3.Queue.NumberInQueue            .38062     (Insuf)    .00000     3.0000     .00000    
+Restaurant 2.Queue.NumberInQueue            1.1639     (Insuf)    .00000     4.0000     2.0000    
+Restaurant 1.Queue.NumberInQueue            5.2156     (Insuf)    .00000     11.000     10.000    
+East Storage Center.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+West Storage Center.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Food.NumberIn                               102.00    
+Food.NumberOut                              69.000    
+FoodStorage.NumberSeized                    102.00    
+FoodStorage.ScheduledUtilization            .01559    
+Consumption1.NumberSeized                   16.000    
+Consumption1.ScheduledUtilization           .82485    
+Consumption5.NumberSeized                   12.000    
+Consumption5.ScheduledUtilization           .55083    
+Consumption4.NumberSeized                   12.000    
+Consumption4.ScheduledUtilization           .45297    
+Consumption3.NumberSeized                   10.000    
+Consumption3.ScheduledUtilization           .56623    
+Consumption2.NumberSeized                   23.000    
+Consumption2.ScheduledUtilization           .78967    
+System.NumberOut                            69.000    
+
+Beginning replication 2 of 10
+
+                                      ARENA Simulation Results
+                                               Lu Lin
+
+                                  Summary for Replication 2 of 10
+
+Project: Fast Food Supply Chain Management                           Run execution date :11/25/2018
+Analyst: Lu Lin                                                      Model revision date:11/25/2018
+
+Replication ended at time      : 120.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Food.VATime                                 25.231     (Insuf)    20.731     34.079         64    
+Food.NVATime                                .00000     (Insuf)    .00000     .00000         64    
+Food.WaitTime                               12.178     (Insuf)    .00000     46.642         64    
+Food.TranTime                               .00000     (Insuf)    .00000     .00000         64    
+Food.OtherTime                              .00000     (Insuf)    .00000     .00000         64    
+Food.TotalTime                              37.410     (Insuf)    20.731     71.588         64    
+Restaurant 5.Queue.WaitingTime              4.2837     (Insuf)    .00000     12.224         12    
+Restaurant 4.Queue.WaitingTime              .00284     (Insuf)    .00000     .01987          7    
+Restaurant 3.Queue.WaitingTime              .71166     (Insuf)    .00000     6.3905         15    
+Restaurant 2.Queue.WaitingTime              31.186     (Insuf)    .00000     46.642         19    
+Restaurant 1.Queue.WaitingTime              12.553     (Insuf)    .00000     30.021         15    
+East Storage Center.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000         60    
+West Storage Center.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000         41    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Food.WIP                                    27.984     (Insuf)    .00000     38.000     37.000    
+FoodStorage.NumberBusy                      15.582     (Insuf)    .00000     20.000     15.000    
+FoodStorage.NumberScheduled                 1000.0     (Insuf)    1000.0     1000.0     1000.0    
+FoodStorage.Utilization                     .01558     (Insuf)    .00000     .02000     .01500    
+Consumption1.NumberBusy                     .72274     (Insuf)    .00000     1.0000     1.0000    
+Consumption1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption1.Utilization                    .72274     (Insuf)    .00000     1.0000     1.0000    
+Consumption5.NumberBusy                     .59035     (Insuf)    .00000     1.0000     1.0000    
+Consumption5.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption5.Utilization                    .59035     (Insuf)    .00000     1.0000     1.0000    
+Consumption4.NumberBusy                     .28453     (Insuf)    .00000     1.0000     .00000    
+Consumption4.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption4.Utilization                    .28453     (Insuf)    .00000     1.0000     .00000    
+Consumption3.NumberBusy                     .44952     (Insuf)    .00000     1.0000     1.0000    
+Consumption3.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption3.Utilization                    .44952     (Insuf)    .00000     1.0000     1.0000    
+Consumption2.NumberBusy                     .83333     (Insuf)    .00000     1.0000     1.0000    
+Consumption2.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption2.Utilization                    .83333     (Insuf)    .00000     1.0000     1.0000    
+Restaurant 5.Queue.NumberInQueue            .43427     (Insuf)    .00000     3.0000     1.0000    
+Restaurant 4.Queue.NumberInQueue            1.6559E-04 (Insuf)    .00000     1.0000     .00000    
+Restaurant 3.Queue.NumberInQueue            .08896     (Insuf)    .00000     1.0000     .00000    
+Restaurant 2.Queue.NumberInQueue            6.5953     (Insuf)    .00000     11.000     11.000    
+Restaurant 1.Queue.NumberInQueue            2.4023     (Insuf)    .00000     7.0000     6.0000    
+East Storage Center.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+West Storage Center.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Food.NumberIn                               101.00    
+Food.NumberOut                              64.000    
+FoodStorage.NumberSeized                    101.00    
+FoodStorage.ScheduledUtilization            .01558    
+Consumption1.NumberSeized                   15.000    
+Consumption1.ScheduledUtilization           .72274    
+Consumption5.NumberSeized                   12.000    
+Consumption5.ScheduledUtilization           .59035    
+Consumption4.NumberSeized                   7.0000    
+Consumption4.ScheduledUtilization           .28453    
+Consumption3.NumberSeized                   15.000    
+Consumption3.ScheduledUtilization           .44952    
+Consumption2.NumberSeized                   19.000    
+Consumption2.ScheduledUtilization           .83333    
+System.NumberOut                            64.000    
+
+Beginning replication 3 of 10
+
+                                      ARENA Simulation Results
+                                               Lu Lin
+
+                                  Summary for Replication 3 of 10
+
+Project: Fast Food Supply Chain Management                           Run execution date :11/25/2018
+Analyst: Lu Lin                                                      Model revision date:11/25/2018
+
+Replication ended at time      : 120.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Food.VATime                                 25.599     (Insuf)    20.553     33.270         61    
+Food.NVATime                                .00000     (Insuf)    .00000     .00000         61    
+Food.WaitTime                               10.049     (Insuf)    .00000     38.761         61    
+Food.TranTime                               .00000     (Insuf)    .00000     .00000         61    
+Food.OtherTime                              .00000     (Insuf)    .00000     .00000         61    
+Food.TotalTime                              35.648     (Insuf)    21.724     64.631         61    
+Restaurant 5.Queue.WaitingTime              3.2137     (Insuf)    .00000     13.935          9    
+Restaurant 4.Queue.WaitingTime              .60477     (Insuf)    .00000     4.2334          7    
+Restaurant 3.Queue.WaitingTime              4.1619     (Insuf)    .00000     9.9422         17    
+Restaurant 2.Queue.WaitingTime              10.103     (Insuf)    .00000     31.034         18    
+Restaurant 1.Queue.WaitingTime              26.940     (Insuf)    .00000     40.479         15    
+East Storage Center.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000         62    
+West Storage Center.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000         40    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Food.WIP                                    27.705     (Insuf)    .00000     41.000     41.000    
+FoodStorage.NumberBusy                      15.698     (Insuf)    .00000     20.000     16.000    
+FoodStorage.NumberScheduled                 1000.0     (Insuf)    1000.0     1000.0     1000.0    
+FoodStorage.Utilization                     .01570     (Insuf)    .00000     .02000     .01600    
+Consumption1.NumberBusy                     .79091     (Insuf)    .00000     1.0000     1.0000    
+Consumption1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption1.Utilization                    .79091     (Insuf)    .00000     1.0000     1.0000    
+Consumption5.NumberBusy                     .50906     (Insuf)    .00000     1.0000     1.0000    
+Consumption5.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption5.Utilization                    .50906     (Insuf)    .00000     1.0000     1.0000    
+Consumption4.NumberBusy                     .25339     (Insuf)    .00000     1.0000     1.0000    
+Consumption4.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption4.Utilization                    .25339     (Insuf)    .00000     1.0000     1.0000    
+Consumption3.NumberBusy                     .75920     (Insuf)    .00000     1.0000     1.0000    
+Consumption3.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption3.Utilization                    .75920     (Insuf)    .00000     1.0000     1.0000    
+Consumption2.NumberBusy                     .80026     (Insuf)    .00000     1.0000     1.0000    
+Consumption2.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption2.Utilization                    .80026     (Insuf)    .00000     1.0000     1.0000    
+Restaurant 5.Queue.NumberInQueue            .24103     (Insuf)    .00000     2.0000     .00000    
+Restaurant 4.Queue.NumberInQueue            .03528     (Insuf)    .00000     1.0000     .00000    
+Restaurant 3.Queue.NumberInQueue            .61405     (Insuf)    .00000     3.0000     1.0000    
+Restaurant 2.Queue.NumberInQueue            2.4489     (Insuf)    .00000     7.0000     7.0000    
+Restaurant 1.Queue.NumberInQueue            5.5547     (Insuf)    .00000     12.000     12.000    
+East Storage Center.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+West Storage Center.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Food.NumberIn                               102.00    
+Food.NumberOut                              61.000    
+FoodStorage.NumberSeized                    102.00    
+FoodStorage.ScheduledUtilization            .01570    
+Consumption1.NumberSeized                   15.000    
+Consumption1.ScheduledUtilization           .79091    
+Consumption5.NumberSeized                   9.0000    
+Consumption5.ScheduledUtilization           .50906    
+Consumption4.NumberSeized                   7.0000    
+Consumption4.ScheduledUtilization           .25339    
+Consumption3.NumberSeized                   17.000    
+Consumption3.ScheduledUtilization           .75920    
+Consumption2.NumberSeized                   18.000    
+Consumption2.ScheduledUtilization           .80026    
+System.NumberOut                            61.000    
+
+Beginning replication 4 of 10
+
+                                      ARENA Simulation Results
+                                               Lu Lin
+
+                                  Summary for Replication 4 of 10
+
+Project: Fast Food Supply Chain Management                           Run execution date :11/25/2018
+Analyst: Lu Lin                                                      Model revision date:11/25/2018
+
+Replication ended at time      : 120.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Food.VATime                                 25.841     (Insuf)    20.325     33.875         64    
+Food.NVATime                                .00000     (Insuf)    .00000     .00000         64    
+Food.WaitTime                               9.6957     (Insuf)    .00000     38.382         64    
+Food.TranTime                               .00000     (Insuf)    .00000     .00000         64    
+Food.OtherTime                              .00000     (Insuf)    .00000     .00000         64    
+Food.TotalTime                              35.537     (Insuf)    20.901     62.911         64    
+Restaurant 5.Queue.WaitingTime              .51487     (Insuf)    .00000     4.9901         11    
+Restaurant 4.Queue.WaitingTime              5.6298     (Insuf)    .00000     18.104         13    
+Restaurant 3.Queue.WaitingTime              1.1025     (Insuf)    .00000     5.9318         10    
+Restaurant 2.Queue.WaitingTime              11.005     (Insuf)    .00000     27.044         19    
+Restaurant 1.Queue.WaitingTime              25.644     (Insuf)    .00000     38.382         15    
+East Storage Center.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000         61    
+West Storage Center.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000         41    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Food.WIP                                    27.248     (Insuf)    .00000     39.000     38.000    
+FoodStorage.NumberBusy                      15.644     (Insuf)    .00000     20.000     17.000    
+FoodStorage.NumberScheduled                 1000.0     (Insuf)    1000.0     1000.0     1000.0    
+FoodStorage.Utilization                     .01564     (Insuf)    .00000     .02000     .01700    
+Consumption1.NumberBusy                     .83333     (Insuf)    .00000     1.0000     1.0000    
+Consumption1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption1.Utilization                    .83333     (Insuf)    .00000     1.0000     1.0000    
+Consumption5.NumberBusy                     .39581     (Insuf)    .00000     1.0000     1.0000    
+Consumption5.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption5.Utilization                    .39581     (Insuf)    .00000     1.0000     1.0000    
+Consumption4.NumberBusy                     .66970     (Insuf)    .00000     1.0000     .00000    
+Consumption4.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption4.Utilization                    .66970     (Insuf)    .00000     1.0000     .00000    
+Consumption3.NumberBusy                     .51495     (Insuf)    .00000     1.0000     1.0000    
+Consumption3.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption3.Utilization                    .51495     (Insuf)    .00000     1.0000     1.0000    
+Consumption2.NumberBusy                     .83333     (Insuf)    .00000     1.0000     1.0000    
+Consumption2.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption2.Utilization                    .83333     (Insuf)    .00000     1.0000     1.0000    
+Restaurant 5.Queue.NumberInQueue            .04720     (Insuf)    .00000     1.0000     .00000    
+Restaurant 4.Queue.NumberInQueue            .60990     (Insuf)    .00000     3.0000     .00000    
+Restaurant 3.Queue.NumberInQueue            .09188     (Insuf)    .00000     1.0000     .00000    
+Restaurant 2.Queue.NumberInQueue            2.7479     (Insuf)    .00000     10.000     9.0000    
+Restaurant 1.Queue.NumberInQueue            4.8601     (Insuf)    .00000     9.0000     8.0000    
+East Storage Center.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+West Storage Center.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Food.NumberIn                               102.00    
+Food.NumberOut                              64.000    
+FoodStorage.NumberSeized                    102.00    
+FoodStorage.ScheduledUtilization            .01564    
+Consumption1.NumberSeized                   15.000    
+Consumption1.ScheduledUtilization           .83333    
+Consumption5.NumberSeized                   11.000    
+Consumption5.ScheduledUtilization           .39581    
+Consumption4.NumberSeized                   13.000    
+Consumption4.ScheduledUtilization           .66970    
+Consumption3.NumberSeized                   10.000    
+Consumption3.ScheduledUtilization           .51495    
+Consumption2.NumberSeized                   19.000    
+Consumption2.ScheduledUtilization           .83333    
+System.NumberOut                            64.000    
+
+Beginning replication 5 of 10
+
+                                      ARENA Simulation Results
+                                               Lu Lin
+
+                                  Summary for Replication 5 of 10
+
+Project: Fast Food Supply Chain Management                           Run execution date :11/25/2018
+Analyst: Lu Lin                                                      Model revision date:11/25/2018
+
+Replication ended at time      : 120.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Food.VATime                                 24.956     (Insuf)    20.610     32.386         69    
+Food.NVATime                                .00000     (Insuf)    .00000     .00000         69    
+Food.WaitTime                               8.4398     (Insuf)    .00000     39.441         69    
+Food.TranTime                               .00000     (Insuf)    .00000     .00000         69    
+Food.OtherTime                              .00000     (Insuf)    .00000     .00000         69    
+Food.TotalTime                              33.396     (Insuf)    20.697     63.147         69    
+Restaurant 5.Queue.WaitingTime              1.3915     (Insuf)    .00000     9.1006          9    
+Restaurant 4.Queue.WaitingTime              1.9908     (Insuf)    .00000     10.841         12    
+Restaurant 3.Queue.WaitingTime              .75346     (Insuf)    .00000     3.3266         13    
+Restaurant 2.Queue.WaitingTime              5.4883     (Insuf)    .00000     15.798         19    
+Restaurant 1.Queue.WaitingTime              25.327     (Insuf)    .00000     39.441         19    
+East Storage Center.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000         63    
+West Storage Center.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000         40    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Food.WIP                                    25.955     (Insuf)    .00000     37.000     34.000    
+FoodStorage.NumberBusy                      15.765     (Insuf)    .00000     20.000     17.000    
+FoodStorage.NumberScheduled                 1000.0     (Insuf)    1000.0     1000.0     1000.0    
+FoodStorage.Utilization                     .01577     (Insuf)    .00000     .02000     .01700    
+Consumption1.NumberBusy                     .78155     (Insuf)    .00000     1.0000     1.0000    
+Consumption1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption1.Utilization                    .78155     (Insuf)    .00000     1.0000     1.0000    
+Consumption5.NumberBusy                     .34792     (Insuf)    .00000     1.0000     .00000    
+Consumption5.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption5.Utilization                    .34792     (Insuf)    .00000     1.0000     .00000    
+Consumption4.NumberBusy                     .51670     (Insuf)    .00000     1.0000     1.0000    
+Consumption4.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption4.Utilization                    .51670     (Insuf)    .00000     1.0000     1.0000    
+Consumption3.NumberBusy                     .49410     (Insuf)    .00000     1.0000     .00000    
+Consumption3.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption3.Utilization                    .49410     (Insuf)    .00000     1.0000     .00000    
+Consumption2.NumberBusy                     .80187     (Insuf)    .00000     1.0000     1.0000    
+Consumption2.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption2.Utilization                    .80187     (Insuf)    .00000     1.0000     1.0000    
+Restaurant 5.Queue.NumberInQueue            .10437     (Insuf)    .00000     1.0000     .00000    
+Restaurant 4.Queue.NumberInQueue            .19909     (Insuf)    .00000     2.0000     .00000    
+Restaurant 3.Queue.NumberInQueue            .08162     (Insuf)    .00000     1.0000     .00000    
+Restaurant 2.Queue.NumberInQueue            1.0475     (Insuf)    .00000     4.0000     3.0000    
+Restaurant 1.Queue.NumberInQueue            5.8145     (Insuf)    .00000     12.000     11.000    
+East Storage Center.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+West Storage Center.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Food.NumberIn                               103.00    
+Food.NumberOut                              69.000    
+FoodStorage.NumberSeized                    103.00    
+FoodStorage.ScheduledUtilization            .01577    
+Consumption1.NumberSeized                   19.000    
+Consumption1.ScheduledUtilization           .78155    
+Consumption5.NumberSeized                   9.0000    
+Consumption5.ScheduledUtilization           .34792    
+Consumption4.NumberSeized                   12.000    
+Consumption4.ScheduledUtilization           .51670    
+Consumption3.NumberSeized                   13.000    
+Consumption3.ScheduledUtilization           .49410    
+Consumption2.NumberSeized                   19.000    
+Consumption2.ScheduledUtilization           .80187    
+System.NumberOut                            69.000    
+
+Beginning replication 6 of 10
+
+                                      ARENA Simulation Results
+                                               Lu Lin
+
+                                  Summary for Replication 6 of 10
+
+Project: Fast Food Supply Chain Management                           Run execution date :11/25/2018
+Analyst: Lu Lin                                                      Model revision date:11/25/2018
+
+Replication ended at time      : 120.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Food.VATime                                 25.880     (Insuf)    20.545     34.372         61    
+Food.NVATime                                .00000     (Insuf)    .00000     .00000         61    
+Food.WaitTime                               9.0935     (Insuf)    .00000     42.927         61    
+Food.TranTime                               .00000     (Insuf)    .00000     .00000         61    
+Food.OtherTime                              .00000     (Insuf)    .00000     .00000         61    
+Food.TotalTime                              34.973     (Insuf)    20.998     65.191         61    
+Restaurant 5.Queue.WaitingTime              2.5349     (Insuf)    .00000     8.1657         10    
+Restaurant 4.Queue.WaitingTime              4.7286     (Insuf)    .00000     12.761         14    
+Restaurant 3.Queue.WaitingTime              .87696     (Insuf)    .00000     6.6447         10    
+Restaurant 2.Queue.WaitingTime              21.346     (Insuf)    .00000     43.605         13    
+Restaurant 1.Queue.WaitingTime              13.841     (Insuf)    .00000     26.238         18    
+East Storage Center.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000         62    
+West Storage Center.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000         42    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Food.WIP                                    27.772     (Insuf)    .00000     43.000     43.000    
+FoodStorage.NumberBusy                      15.761     (Insuf)    .00000     20.000     18.000    
+FoodStorage.NumberScheduled                 1000.0     (Insuf)    1000.0     1000.0     1000.0    
+FoodStorage.Utilization                     .01576     (Insuf)    .00000     .02000     .01800    
+Consumption1.NumberBusy                     .83333     (Insuf)    .00000     1.0000     1.0000    
+Consumption1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption1.Utilization                    .83333     (Insuf)    .00000     1.0000     1.0000    
+Consumption5.NumberBusy                     .50554     (Insuf)    .00000     1.0000     .00000    
+Consumption5.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption5.Utilization                    .50554     (Insuf)    .00000     1.0000     .00000    
+Consumption4.NumberBusy                     .62320     (Insuf)    .00000     1.0000     1.0000    
+Consumption4.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption4.Utilization                    .62320     (Insuf)    .00000     1.0000     1.0000    
+Consumption3.NumberBusy                     .43940     (Insuf)    .00000     1.0000     1.0000    
+Consumption3.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption3.Utilization                    .43940     (Insuf)    .00000     1.0000     1.0000    
+Consumption2.NumberBusy                     .80273     (Insuf)    .00000     1.0000     1.0000    
+Consumption2.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption2.Utilization                    .80273     (Insuf)    .00000     1.0000     1.0000    
+Restaurant 5.Queue.NumberInQueue            .21124     (Insuf)    .00000     2.0000     .00000    
+Restaurant 4.Queue.NumberInQueue            .55168     (Insuf)    .00000     3.0000     .00000    
+Restaurant 3.Queue.NumberInQueue            .07829     (Insuf)    .00000     1.0000     1.0000    
+Restaurant 2.Queue.NumberInQueue            4.3769     (Insuf)    .00000     11.000     9.0000    
+Restaurant 1.Queue.NumberInQueue            3.5886     (Insuf)    .00000     11.000     11.000    
+East Storage Center.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+West Storage Center.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Food.NumberIn                               104.00    
+Food.NumberOut                              61.000    
+FoodStorage.NumberSeized                    104.00    
+FoodStorage.ScheduledUtilization            .01576    
+Consumption1.NumberSeized                   18.000    
+Consumption1.ScheduledUtilization           .83333    
+Consumption5.NumberSeized                   10.000    
+Consumption5.ScheduledUtilization           .50554    
+Consumption4.NumberSeized                   14.000    
+Consumption4.ScheduledUtilization           .62320    
+Consumption3.NumberSeized                   10.000    
+Consumption3.ScheduledUtilization           .43940    
+Consumption2.NumberSeized                   13.000    
+Consumption2.ScheduledUtilization           .80273    
+System.NumberOut                            61.000    
+
+Beginning replication 7 of 10
+
+                                      ARENA Simulation Results
+                                               Lu Lin
+
+                                  Summary for Replication 7 of 10
+
+Project: Fast Food Supply Chain Management                           Run execution date :11/25/2018
+Analyst: Lu Lin                                                      Model revision date:11/25/2018
+
+Replication ended at time      : 120.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Food.VATime                                 25.847     (Insuf)    21.611     33.256         65    
+Food.NVATime                                .00000     (Insuf)    .00000     .00000         65    
+Food.WaitTime                               10.978     (Insuf)    .00000     40.654         65    
+Food.TranTime                               .00000     (Insuf)    .00000     .00000         65    
+Food.OtherTime                              .00000     (Insuf)    .00000     .00000         65    
+Food.TotalTime                              36.825     (Insuf)    21.899     64.506         65    
+Restaurant 5.Queue.WaitingTime              2.0273     (Insuf)    .00000     7.7970         11    
+Restaurant 4.Queue.WaitingTime              6.3839     (Insuf)    .00000     22.086         14    
+Restaurant 3.Queue.WaitingTime              2.9916     (Insuf)    .00000     7.2918          8    
+Restaurant 2.Queue.WaitingTime              24.728     (Insuf)    .00000     40.654         19    
+Restaurant 1.Queue.WaitingTime              9.8043     (Insuf)    .00000     22.847         18    
+East Storage Center.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000         61    
+West Storage Center.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000         41    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Food.WIP                                    27.175     (Insuf)    .00000     38.000     37.000    
+FoodStorage.NumberBusy                      15.639     (Insuf)    .00000     20.000     17.000    
+FoodStorage.NumberScheduled                 1000.0     (Insuf)    1000.0     1000.0     1000.0    
+FoodStorage.Utilization                     .01564     (Insuf)    .00000     .02000     .01700    
+Consumption1.NumberBusy                     .75723     (Insuf)    .00000     1.0000     1.0000    
+Consumption1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption1.Utilization                    .75723     (Insuf)    .00000     1.0000     1.0000    
+Consumption5.NumberBusy                     .59524     (Insuf)    .00000     1.0000     1.0000    
+Consumption5.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption5.Utilization                    .59524     (Insuf)    .00000     1.0000     1.0000    
+Consumption4.NumberBusy                     .68916     (Insuf)    .00000     1.0000     1.0000    
+Consumption4.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption4.Utilization                    .68916     (Insuf)    .00000     1.0000     1.0000    
+Consumption3.NumberBusy                     .46100     (Insuf)    .00000     1.0000     1.0000    
+Consumption3.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption3.Utilization                    .46100     (Insuf)    .00000     1.0000     1.0000    
+Consumption2.NumberBusy                     .83333     (Insuf)    .00000     1.0000     1.0000    
+Consumption2.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption2.Utilization                    .83333     (Insuf)    .00000     1.0000     1.0000    
+Restaurant 5.Queue.NumberInQueue            .18584     (Insuf)    .00000     1.0000     .00000    
+Restaurant 4.Queue.NumberInQueue            .77997     (Insuf)    .00000     4.0000     1.0000    
+Restaurant 3.Queue.NumberInQueue            .19944     (Insuf)    .00000     1.0000     .00000    
+Restaurant 2.Queue.NumberInQueue            4.6189     (Insuf)    .00000     8.0000     6.0000    
+Restaurant 1.Queue.NumberInQueue            2.4155     (Insuf)    .00000     8.0000     8.0000    
+East Storage Center.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+West Storage Center.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Food.NumberIn                               102.00    
+Food.NumberOut                              65.000    
+FoodStorage.NumberSeized                    102.00    
+FoodStorage.ScheduledUtilization            .01564    
+Consumption1.NumberSeized                   18.000    
+Consumption1.ScheduledUtilization           .75723    
+Consumption5.NumberSeized                   11.000    
+Consumption5.ScheduledUtilization           .59524    
+Consumption4.NumberSeized                   14.000    
+Consumption4.ScheduledUtilization           .68916    
+Consumption3.NumberSeized                   8.0000    
+Consumption3.ScheduledUtilization           .46100    
+Consumption2.NumberSeized                   19.000    
+Consumption2.ScheduledUtilization           .83333    
+System.NumberOut                            65.000    
+
+Beginning replication 8 of 10
+
+                                      ARENA Simulation Results
+                                               Lu Lin
+
+                                  Summary for Replication 8 of 10
+
+Project: Fast Food Supply Chain Management                           Run execution date :11/25/2018
+Analyst: Lu Lin                                                      Model revision date:11/25/2018
+
+Replication ended at time      : 120.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Food.VATime                                 25.938     (Insuf)    20.546     33.818         62    
+Food.NVATime                                .00000     (Insuf)    .00000     .00000         62    
+Food.WaitTime                               11.881     (Insuf)    .00000     37.081         62    
+Food.TranTime                               .00000     (Insuf)    .00000     .00000         62    
+Food.OtherTime                              .00000     (Insuf)    .00000     .00000         62    
+Food.TotalTime                              37.820     (Insuf)    20.784     60.675         62    
+Restaurant 5.Queue.WaitingTime              3.1136     (Insuf)    .00000     9.2805          9    
+Restaurant 4.Queue.WaitingTime              3.3891     (Insuf)    .00000     10.864         13    
+Restaurant 3.Queue.WaitingTime              9.1107     (Insuf)    .00000     16.881         10    
+Restaurant 2.Queue.WaitingTime              23.927     (Insuf)    .00000     37.081         19    
+Restaurant 1.Queue.WaitingTime              13.901     (Insuf)    .00000     34.022         15    
+East Storage Center.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000         62    
+West Storage Center.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000         40    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Food.WIP                                    28.167     (Insuf)    .00000     42.000     40.000    
+FoodStorage.NumberBusy                      15.617     (Insuf)    .00000     20.000     16.000    
+FoodStorage.NumberScheduled                 1000.0     (Insuf)    1000.0     1000.0     1000.0    
+FoodStorage.Utilization                     .01562     (Insuf)    .00000     .02000     .01600    
+Consumption1.NumberBusy                     .70567     (Insuf)    .00000     1.0000     1.0000    
+Consumption1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption1.Utilization                    .70567     (Insuf)    .00000     1.0000     1.0000    
+Consumption5.NumberBusy                     .50075     (Insuf)    .00000     1.0000     .00000    
+Consumption5.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption5.Utilization                    .50075     (Insuf)    .00000     1.0000     .00000    
+Consumption4.NumberBusy                     .52383     (Insuf)    .00000     1.0000     1.0000    
+Consumption4.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption4.Utilization                    .52383     (Insuf)    .00000     1.0000     1.0000    
+Consumption3.NumberBusy                     .56435     (Insuf)    .00000     1.0000     1.0000    
+Consumption3.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption3.Utilization                    .56435     (Insuf)    .00000     1.0000     1.0000    
+Consumption2.NumberBusy                     .83333     (Insuf)    .00000     1.0000     1.0000    
+Consumption2.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption2.Utilization                    .83333     (Insuf)    .00000     1.0000     1.0000    
+Restaurant 5.Queue.NumberInQueue            .23353     (Insuf)    .00000     2.0000     .00000    
+Restaurant 4.Queue.NumberInQueue            .39071     (Insuf)    .00000     2.0000     1.0000    
+Restaurant 3.Queue.NumberInQueue            .84197     (Insuf)    .00000     3.0000     1.0000    
+Restaurant 2.Queue.NumberInQueue            5.1302     (Insuf)    .00000     10.000     7.0000    
+Restaurant 1.Queue.NumberInQueue            2.8252     (Insuf)    .00000     11.000     11.000    
+East Storage Center.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+West Storage Center.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Food.NumberIn                               102.00    
+Food.NumberOut                              62.000    
+FoodStorage.NumberSeized                    102.00    
+FoodStorage.ScheduledUtilization            .01562    
+Consumption1.NumberSeized                   15.000    
+Consumption1.ScheduledUtilization           .70567    
+Consumption5.NumberSeized                   9.0000    
+Consumption5.ScheduledUtilization           .50075    
+Consumption4.NumberSeized                   13.000    
+Consumption4.ScheduledUtilization           .52383    
+Consumption3.NumberSeized                   10.000    
+Consumption3.ScheduledUtilization           .56435    
+Consumption2.NumberSeized                   19.000    
+Consumption2.ScheduledUtilization           .83333    
+System.NumberOut                            62.000    
+
+Beginning replication 9 of 10
+
+                                      ARENA Simulation Results
+                                               Lu Lin
+
+                                  Summary for Replication 9 of 10
+
+Project: Fast Food Supply Chain Management                           Run execution date :11/25/2018
+Analyst: Lu Lin                                                      Model revision date:11/25/2018
+
+Replication ended at time      : 120.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Food.VATime                                 24.690     (Insuf)    20.818     33.459         67    
+Food.NVATime                                .00000     (Insuf)    .00000     .00000         67    
+Food.WaitTime                               8.7209     (Insuf)    .00000     32.047         67    
+Food.TranTime                               .00000     (Insuf)    .00000     .00000         67    
+Food.OtherTime                              .00000     (Insuf)    .00000     .00000         67    
+Food.TotalTime                              33.411     (Insuf)    20.818     59.599         67    
+Restaurant 5.Queue.WaitingTime              1.8710     (Insuf)    .00000     7.1688         15    
+Restaurant 4.Queue.WaitingTime              1.4460     (Insuf)    .00000     5.0656          7    
+Restaurant 3.Queue.WaitingTime              3.5844     (Insuf)    .00000     9.4199         11    
+Restaurant 2.Queue.WaitingTime              11.122     (Insuf)    .00000     19.193         20    
+Restaurant 1.Queue.WaitingTime              18.313     (Insuf)    .00000     39.452         19    
+East Storage Center.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000         61    
+West Storage Center.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000         41    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Food.WIP                                    25.452     (Insuf)    .00000     35.000     35.000    
+FoodStorage.NumberBusy                      15.703     (Insuf)    .00000     20.000     16.000    
+FoodStorage.NumberScheduled                 1000.0     (Insuf)    1000.0     1000.0     1000.0    
+FoodStorage.Utilization                     .01570     (Insuf)    .00000     .02000     .01600    
+Consumption1.NumberBusy                     .79097     (Insuf)    .00000     1.0000     1.0000    
+Consumption1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption1.Utilization                    .79097     (Insuf)    .00000     1.0000     1.0000    
+Consumption5.NumberBusy                     .61701     (Insuf)    .00000     1.0000     1.0000    
+Consumption5.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption5.Utilization                    .61701     (Insuf)    .00000     1.0000     1.0000    
+Consumption4.NumberBusy                     .22577     (Insuf)    .00000     1.0000     1.0000    
+Consumption4.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption4.Utilization                    .22577     (Insuf)    .00000     1.0000     1.0000    
+Consumption3.NumberBusy                     .43947     (Insuf)    .00000     1.0000     1.0000    
+Consumption3.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption3.Utilization                    .43947     (Insuf)    .00000     1.0000     1.0000    
+Consumption2.NumberBusy                     .74565     (Insuf)    .00000     1.0000     1.0000    
+Consumption2.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption2.Utilization                    .74565     (Insuf)    .00000     1.0000     1.0000    
+Restaurant 5.Queue.NumberInQueue            .28599     (Insuf)    .00000     2.0000     2.0000    
+Restaurant 4.Queue.NumberInQueue            .08435     (Insuf)    .00000     1.0000     .00000    
+Restaurant 3.Queue.NumberInQueue            .32857     (Insuf)    .00000     2.0000     .00000    
+Restaurant 2.Queue.NumberInQueue            2.1933     (Insuf)    .00000     7.0000     3.0000    
+Restaurant 1.Queue.NumberInQueue            4.0379     (Insuf)    .00000     10.000     9.0000    
+East Storage Center.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+West Storage Center.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Food.NumberIn                               102.00    
+Food.NumberOut                              67.000    
+FoodStorage.NumberSeized                    102.00    
+FoodStorage.ScheduledUtilization            .01570    
+Consumption1.NumberSeized                   19.000    
+Consumption1.ScheduledUtilization           .79097    
+Consumption5.NumberSeized                   15.000    
+Consumption5.ScheduledUtilization           .61701    
+Consumption4.NumberSeized                   7.0000    
+Consumption4.ScheduledUtilization           .22577    
+Consumption3.NumberSeized                   11.000    
+Consumption3.ScheduledUtilization           .43947    
+Consumption2.NumberSeized                   20.000    
+Consumption2.ScheduledUtilization           .74565    
+System.NumberOut                            67.000    
+
+Beginning replication 10 of 10
+
+                                      ARENA Simulation Results
+                                               Lu Lin
+
+                                  Summary for Replication 10 of 10
+
+Project: Fast Food Supply Chain Management                           Run execution date :11/25/2018
+Analyst: Lu Lin                                                      Model revision date:11/25/2018
+
+Replication ended at time      : 120.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Food.VATime                                 24.858     (Insuf)    20.423     33.904         67    
+Food.NVATime                                .00000     (Insuf)    .00000     .00000         67    
+Food.WaitTime                               8.3767     (Insuf)    .00000     36.574         67    
+Food.TranTime                               .00000     (Insuf)    .00000     .00000         67    
+Food.OtherTime                              .00000     (Insuf)    .00000     .00000         67    
+Food.TotalTime                              33.235     (Insuf)    20.423     61.259         67    
+Restaurant 5.Queue.WaitingTime              .85535     (Insuf)    .00000     5.3649          9    
+Restaurant 4.Queue.WaitingTime              1.4701     (Insuf)    .00000     11.605         11    
+Restaurant 3.Queue.WaitingTime              .74355     (Insuf)    .00000     4.3689         13    
+Restaurant 2.Queue.WaitingTime              23.835     (Insuf)    .00000     36.574         19    
+Restaurant 1.Queue.WaitingTime              7.2809     (Insuf)    .00000     16.277         19    
+East Storage Center.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000         63    
+West Storage Center.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000         41    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Food.WIP                                    25.432     (Insuf)    .00000     37.000     37.000    
+FoodStorage.NumberBusy                      15.642     (Insuf)    .00000     20.000     19.000    
+FoodStorage.NumberScheduled                 1000.0     (Insuf)    1000.0     1000.0     1000.0    
+FoodStorage.Utilization                     .01564     (Insuf)    .00000     .02000     .01900    
+Consumption1.NumberBusy                     .83333     (Insuf)    .00000     1.0000     1.0000    
+Consumption1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption1.Utilization                    .83333     (Insuf)    .00000     1.0000     1.0000    
+Consumption5.NumberBusy                     .32447     (Insuf)    .00000     1.0000     .00000    
+Consumption5.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption5.Utilization                    .32447     (Insuf)    .00000     1.0000     .00000    
+Consumption4.NumberBusy                     .40421     (Insuf)    .00000     1.0000     1.0000    
+Consumption4.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption4.Utilization                    .40421     (Insuf)    .00000     1.0000     1.0000    
+Consumption3.NumberBusy                     .49030     (Insuf)    .00000     1.0000     1.0000    
+Consumption3.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption3.Utilization                    .49030     (Insuf)    .00000     1.0000     1.0000    
+Consumption2.NumberBusy                     .83333     (Insuf)    .00000     1.0000     1.0000    
+Consumption2.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Consumption2.Utilization                    .83333     (Insuf)    .00000     1.0000     1.0000    
+Restaurant 5.Queue.NumberInQueue            .06415     (Insuf)    .00000     1.0000     .00000    
+Restaurant 4.Queue.NumberInQueue            .13477     (Insuf)    .00000     1.0000     .00000    
+Restaurant 3.Queue.NumberInQueue            .09540     (Insuf)    .00000     1.0000     1.0000    
+Restaurant 2.Queue.NumberInQueue            4.7466     (Insuf)    .00000     10.000     7.0000    
+Restaurant 1.Queue.NumberInQueue            1.8632     (Insuf)    .00000     7.0000     6.0000    
+East Storage Center.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+West Storage Center.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Food.NumberIn                               104.00    
+Food.NumberOut                              67.000    
+FoodStorage.NumberSeized                    104.00    
+FoodStorage.ScheduledUtilization            .01564    
+Consumption1.NumberSeized                   19.000    
+Consumption1.ScheduledUtilization           .83333    
+Consumption5.NumberSeized                   9.0000    
+Consumption5.ScheduledUtilization           .32447    
+Consumption4.NumberSeized                   11.000    
+Consumption4.ScheduledUtilization           .40421    
+Consumption3.NumberSeized                   13.000    
+Consumption3.ScheduledUtilization           .49030    
+Consumption2.NumberSeized                   19.000    
+Consumption2.ScheduledUtilization           .83333    
+System.NumberOut                            67.000    
+
+
+                                      ARENA Simulation Results
+                                               Lu Lin
+
+                                 Output Summary for 10 Replications
+
+Project: Fast Food Supply Chain Management                           Run execution date :11/25/2018
+Analyst: Lu Lin                                                      Model revision date:11/25/2018
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Food.NumberIn                               102.40     .69105     101.00     104.00     10
+Food.NumberOut                              64.900     2.1709     61.000     69.000     10
+FoodStorage.NumberSeized                    102.40     .69105     101.00     104.00     10
+FoodStorage.ScheduledUtilization            .01566     4.6647E-05 .01558     .01577     10
+Consumption1.NumberSeized                   16.900     1.3254     15.000     19.000     10
+Consumption1.ScheduledUtilization           .78739     .03335     .70567     .83333     10
+Consumption5.NumberSeized                   10.700     1.3923     9.0000     15.000     10
+Consumption5.ScheduledUtilization           .49370     .07465     .32447     .61701     10
+Consumption4.NumberSeized                   11.000     2.0786     7.0000     14.000     10
+Consumption4.ScheduledUtilization           .46435     .12198     .22577     .68916     10
+Consumption3.NumberSeized                   11.700     1.9676     8.0000     17.000     10
+Consumption3.ScheduledUtilization           .51785     .06922     .43940     .75920     10
+Consumption2.NumberSeized                   18.800     1.7456     13.000     23.000     10
+Consumption2.ScheduledUtilization           .81068     .02063     .74565     .83333     10
+System.NumberOut                            64.900     2.1709     61.000     69.000     10
+
+Simulation run time: 0.05 minutes.
+Simulation run complete.

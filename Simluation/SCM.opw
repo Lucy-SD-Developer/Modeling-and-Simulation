@@ -1,0 +1,30 @@
+[RESOURCES]
+FoodStorage
+Consumption1
+Consumption5
+Consumption4
+Consumption3
+Consumption2
+[VARIABLES]
+Dispose.NumberOut
+Supplier 3.NumberOut
+Supplier 5.NumberOut
+East Storage Center.NumberOut
+East Distributor.NumberOut False
+Restaurant 1.NumberIn
+Restaurant 3.NumberIn
+Restaurant 4.NumberIn
+Restaurant 5.NumberIn
+Restaurant 2.NumberIn
+East Storage Center.NumberIn
+East Distributor.NumberOut True
+Restaurant 1.NumberOut
+Restaurant 3.NumberOut
+Restaurant 4.NumberOut
+Restaurant 5.NumberOut
+Restaurant 2.NumberOut
+Supplier 2.NumberOut
+Supplier 1.NumberOut
+Supplier 4.NumberOut
+West Storage Center.NumberIn
+West Storage Center.NumberOut
